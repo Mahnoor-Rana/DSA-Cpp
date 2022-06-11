@@ -10,7 +10,7 @@ public:
 	
 	void push(Node**head_ref,int new_data){
 		// allocate node 
-		new_data = new Node()
+		new_data = new Node();
 		new_data->data = new_data;
 		new_data->next = (*head_ref);
 		(*head_ref) = new_data;
