@@ -11,8 +11,8 @@ public:
 	void push(Node*n){
 		// allocate node 
 		while(n!= NULL){
-               cout<<n->data<<endl;
-			   n = n->next;
+                  cout<<n->data<<endl;
+	          n = n->next;
 		}
 		
 	}
