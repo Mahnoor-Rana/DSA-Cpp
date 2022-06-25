@@ -3,16 +3,18 @@
 #include<stack>
 using namespace std;
 class Stack{
+	public:
 	// properties
-	int arr[];
+	int arr[6];
 	int n;
 	int top;
 	
 	// Methods
-	Stack(int n){
-	int	arr = arr[n];
-		top = -1;//empty array
-	}
+//	Stack(int size){
+	//	this-> n = n ;
+	//	arr= new int[n];
+	//	top = -1;
+//	}
 	
 	void push(int ele){
 		if(n-top >1){
@@ -37,14 +39,14 @@ class Stack{
 	}
 	
 	int peek(){
-		if(top>0){
+		if(top>=0){
 			return arr[top];
 		}
 	}	
 	
 };
 int main(){
-	Stack s(6);
+	Stack s;
 	
 	s.push(32);
 	s.push(43);
