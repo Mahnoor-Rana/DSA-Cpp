@@ -29,7 +29,7 @@ class Stack{
 		}
 	}
 	
-	bool isempty(int ele){
+	bool isempty(){
 		if(top == -1){
 			cout<<"Stack is empty"<<endl;
 		}
@@ -53,5 +53,7 @@ int main(){
 	s.push(89);
 	
 	cout<<"Top element is "<<s.peek()<<endl;
+	s.pop();
+	s.isempty();
 	return 0;
 }
