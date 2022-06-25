@@ -1,16 +1,16 @@
-// Stack implementation by using single array
+// Write a program implement two Stack implementation by using single array
 #include<iostream>
 #include<stack>
 using namespace std;
 class Stack{
 	public:
 	// properties
-	int arr[6];// first method to initialize
+	int arr[6];
 	int n;
 	int top;
 	
 	// Methods
-//	Stack(int size){ 2nd method to input the size of array
+//	Stack(int size){
 	//	this-> n = n ;
 	//	arr= new int[n];
 	//	top = -1;
