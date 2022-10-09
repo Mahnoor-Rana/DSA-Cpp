@@ -25,7 +25,7 @@ int main(){
 	second = new Node();
 
 	head->data = 1; // assign data in first node
-	head->next = second;
+	head->next = second; // assign the data in next node
 	
 	second->data=3;
 	second->next = NULL;
