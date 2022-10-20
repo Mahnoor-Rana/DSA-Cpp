@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int fact(int n){
-    if(n==0){
+    if(n==1){
         return 1;
     
     }
@@ -11,6 +11,7 @@ int fact(int n){
 }
 int main(){
    int m = fact(5);
+//if number given is 0 than you can directly return 1.
     cout<<m<<endl;
     return 0;
 }
