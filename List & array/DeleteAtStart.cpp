@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int N=10,n= 15;
+int N=10,n= 16;
 bool isFull(){
     if(N==n){
         return true;
